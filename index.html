@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Your Name. Websites, interfaces and small animated experiments.">
+  <title>Your Name | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand">Ritik Raushan</a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme">Dark</button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="kicker" data-anim="animate__fadeInUp">Freelance web developer, based in Jaipur</p>
+
+        <h1 data-anim="animate__fadeInUp" data-delay="0.1s">
+          I build websites that are <em>quiet, fast,</em> and easy to use.
+        </h1>
+
+        <p class="lede" data-anim="animate__fadeInUp" data-delay="0.25s">
+          I work with small businesses, students and early-stage founders. Most of my work is clean
+          HTML, CSS and JavaScript, with animation only where it helps someone understand what happened on the page.
+        </p>
+
+        <div class="hero-actions" data-anim="animate__fadeInUp" data-delay="0.4s">
+          <a href="#work" class="btn btn-primary">See selected work</a>
+          <a href="#contact" class="btn btn-text">Start a project →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" aria-label="Key numbers">
+      <div class="container stats-grid">
+        <div class="stat" data-reveal data-anim="animate__fadeInUp">
+          <span class="stat-num counter" data-target="25" data-suffix="+">0</span>
+          <span class="stat-label">Projects delivered</span>
+        </div>
+        <div class="stat" data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+          <span class="stat-num counter" data-target="3" data-suffix="">0</span>
+          <span class="stat-label">Years building for the web</span>
+        </div>
+        <div class="stat" data-reveal data-anim="animate__fadeInUp" data-delay="0.2s">
+          <span class="stat-num counter" data-target="2" data-suffix=" wks">0</span>
+          <span class="stat-label">Support after every launch</span>
+        </div>
+        <div class="stat" data-reveal data-anim="animate__fadeInUp" data-delay="0.3s">
+          <span class="stat-num counter" data-target="100" data-suffix="%">0</span>
+          <span class="stat-label">Hand-written code, no page builders</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-label" data-reveal data-anim="animate__fadeIn">
+          <span>01</span> About
+        </div>
+
+        <div class="about-text" data-reveal data-anim="animate__fadeInUp">
+          <h2>A small practice, working slowly on purpose.</h2>
+          <p>
+            I started building sites for friends and local shops, and I still take on work of that size.
+            I would rather finish three projects well than take on ten and rush them.
+          </p>
+          <p>
+            Before you sign anything, you get a plain-language plan: what I will build, what it will cost,
+            and what I need from you. If a simple HTML page is enough, I will tell you that too.
+          </p>
+          <p class="signature">— Ritik Raushan</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-tinted" id="services">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>02</span> Services</div>
+          <h2>What I can help with.</h2>
+        </div>
+
+        <ol class="service-list">
+          <li data-reveal data-anim="animate__fadeInUp">
+            <span class="service-no">A</span>
+            <h3>Business websites</h3>
+            <p>Clear, fast pages for shops, clinics, restaurants and local services. Mobile first, with a contact form that works.</p>
+          </li>
+          <li data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+            <span class="service-no">B</span>
+            <h3>Landing pages</h3>
+            <p>One focused page for a product, event or launch, built to load quickly and explain itself in ten seconds.</p>
+          </li>
+          <li data-reveal data-anim="animate__fadeInUp" data-delay="0.2s">
+            <span class="service-no">C</span>
+            <h3>Dashboards and interfaces</h3>
+            <p>Simple data views and admin panels where the numbers come first and the animation stays out of the way.</p>
+          </li>
+          <li data-reveal data-anim="animate__fadeInUp" data-delay="0.3s">
+            <span class="service-no">D</span>
+            <h3>Motion and polish</h3>
+            <p>Entrance effects, hover states and scroll reveals added to an existing site, with reduced-motion support built in.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>03</span> Selected work</div>
+          <h2>A few things I have built.</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project" data-reveal data-anim="animate__fadeInUp">
+            <div class="project-media">
+              <img src="https://picsum.photos/seed/work-1/1200/900" alt="Homepage of a local restaurant website on a laptop" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Restaurant website · 2025</p>
+              <h3>Ruchi Kitchen</h3>
+              <p>A menu site that loads quickly on slow mobile networks, with ordering links and a simple contact form.</p>
+              <a href="#" class="text-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project project-reverse" data-reveal data-anim="animate__fadeInUp">
+            <div class="project-media">
+              <img src="https://picsum.photos/seed/work-2/1200/900" alt="Dashboard showing energy usage charts" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Dashboard · 2025</p>
+              <h3>Energy usage dashboard</h3>
+              <p>A read-only dashboard for a small office. Charts animate once on load and then stay still, so the numbers are easy to read.</p>
+              <a href="#" class="text-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project" data-reveal data-anim="animate__fadeInUp">
+            <div class="project-media">
+              <img src="https://picsum.photos/seed/work-3/1200/900" alt="Notebook with hand-drawn sketches of a mobile app" loading="lazy">
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Portfolio · 2024</p>
+              <h3>Studio portfolio for an illustrator</h3>
+              <p>A simple gallery with keyboard navigation and a reduced-motion option, built without any framework.</p>
+              <a href="#" class="text-link">View case study →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section section-tinted" id="gallery">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>04</span> Gallery</div>
+          <h2>Screens from recent builds.</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="shot" data-reveal data-anim="animate__fadeIn">
+            <img src="https://picsum.photos/seed/gallery-1/1200/900" alt="Mobile menu page of a cafe website" loading="lazy">
+            <figcaption>Mobile menu page</figcaption>
+          </figure>
+          <figure class="shot" data-reveal data-anim="animate__fadeIn" data-delay="0.1s">
+            <img src="https://picsum.photos/seed/gallery-2/1200/900" alt="Appointment booking form on a clinic website" loading="lazy">
+            <figcaption>Booking form</figcaption>
+          </figure>
+          <figure class="shot" data-reveal data-anim="animate__fadeIn" data-delay="0.2s">
+            <img src="https://picsum.photos/seed/gallery-3/1200/900 " alt="Analytics panel with bar and line charts" loading="lazy">
+            <figcaption>Analytics panel</figcaption>
+          </figure>
+          <figure class="shot" data-reveal data-anim="animate__fadeIn" data-delay="0.3s">
+            <img src="https://picsum.photos/seed/gallery-4/1200/900" alt="Landing page hero for a product launch" loading="lazy">
+            <figcaption>Launch page hero</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>05</span> How I work</div>
+          <h2>Three steps, no surprises.</h2>
+        </div>
+
+        <ol class="steps">
+          <li data-reveal data-anim="animate__fadeInUp">
+            <h3>Talk it through</h3>
+            <p>A 30-minute call to understand what you need, who will use it, and what already exists.</p>
+          </li>
+          <li data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+            <h3>Build a rough version</h3>
+            <p>You see a working draft within the first week. Changes at this stage cost nothing extra.</p>
+          </li>
+          <li data-reveal data-anim="animate__fadeInUp" data-delay="0.2s">
+            <h3>Launch and hand over</h3>
+            <p>I deploy the site, show you how to update the text, and stay available for two weeks after launch.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section section-tinted" id="pricing">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>06</span> Pricing</div>
+          <h2>Clear prices, decided before we start.</h2>
+          <p class="muted">Every quote includes a written scope. Nothing is added later without a conversation.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="plan" data-reveal data-anim="animate__fadeInUp">
+            <h3>Starter</h3>
+            <p class="plan-price">₹4,999</p>
+            <p class="plan-note">One-page site, one-time</p>
+            <ul>
+              <li>Up to 3 sections</li>
+              <li>Mobile friendly</li>
+              <li>Contact form</li>
+              <li>Basic entrance animations</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost">Ask about Starter</a>
+          </article>
+
+          <article class="plan plan-featured" data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+            <p class="plan-tag">Most chosen</p>
+            <h3>Business</h3>
+            <p class="plan-price">₹12,999</p>
+            <p class="plan-note">Multi-page site, with 2 weeks of support</p>
+            <ul>
+              <li>Up to 6 pages</li>
+              <li>Custom animations and transitions</li>
+              <li>Basic SEO setup</li>
+              <li>Help updating content</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Ask about Business</a>
+          </article>
+
+          <article class="plan" data-reveal data-anim="animate__fadeInUp" data-delay="0.2s">
+            <h3>Custom</h3>
+            <p class="plan-price">Let's talk</p>
+            <p class="plan-note">Dashboards, apps and bigger builds</p>
+            <ul>
+              <li>Scoped after a call</li>
+              <li>Milestone-based payment</li>
+              <li>Source code handed over</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost">Start a conversation</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>07</span> Client notes</div>
+          <h2>What clients said after launch.</h2>
+        </div>
+
+        <div class="review-grid">
+          <blockquote class="review" data-reveal data-anim="animate__fadeInUp">
+            <p>[Replace with a real quote from a client you have worked with.]</p>
+            <cite>[Client name], [Business name]</cite>
+          </blockquote>
+
+          <blockquote class="review" data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+            <p>[Second real quote, ideally about communication or delivery time.]</p>
+            <cite>[Client name], [Role]</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-tinted" id="faq">
+      <div class="container">
+        <div class="section-head" data-reveal data-anim="animate__fadeIn">
+          <div class="section-label"><span>08</span> Questions</div>
+          <h2>Things people usually ask.</h2>
+        </div>
+
+        <div class="faq" data-reveal data-anim="animate__fadeInUp">
+          <details>
+            <summary>Do I need to know how to code to update my site?</summary>
+            <p>No. I set up the content so that text and images can be changed from one file or one place, and I show you how during the handover.</p>
+          </details>
+          <details>
+            <summary>Will animations slow my website down?</summary>
+            <p>I only animate transform and opacity, which the browser handles efficiently. Animations are kept short and run once.</p>
+          </details>
+          <details>
+            <summary>Can visitors turn animations off?</summary>
+            <p>Yes. Every page checks the reduced-motion setting on the visitor's device and turns animations off when it is set.</p>
+          </details>
+          <details>
+            <summary>Do you provide hosting and a domain?</summary>
+            <p>I can set both up for you, or work with what you already have. Hosting costs are paid directly by you to the provider.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div data-reveal data-anim="animate__fadeInUp">
+          <div class="section-label"><span>09</span> Contact</div>
+          <h2>Tell me what you are working on.</h2>
+          <p class="muted">
+            Write a few lines about the project. I usually reply within two working days, often sooner.
+          </p>
+          <ul class="contact-details">
+            <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li>Jaipur, Rajasthan, India</li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate data-reveal data-anim="animate__fadeInUp" data-delay="0.1s">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <p class="error" aria-live="polite"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">About the project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="error" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Name</p>
+      <p>Built by hand, with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
